@@ -1,5 +1,6 @@
 package mq
 
+import config.Config
 import org.apache.activemq.ActiveMQConnectionFactory
 
 import javax.jms.*
@@ -14,8 +15,9 @@ class ActiveMQProduction {
 
     //发送消息到消息中心
     static void main(String[] args) {
+        String url = Config.UrlConfig.ActiveMQClientUrl.url+':'+Config.UrlConfig.ActiveMQClientUrl.port
         //创建连接工厂
-        ActiveMQConnectionFactory activeMQConnectionFactory = new ActiveMQConnectionFactory (ActiveMQConfig.url)
+        ActiveMQConnectionFactory activeMQConnectionFactory = new ActiveMQConnectionFactory (url)
 
         //创建连接
         Connection connection = activeMQConnectionFactory.createConnection()

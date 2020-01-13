@@ -17,4 +17,5 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'//junit测试依赖包
     compile group: 'org.apache.poi', name: 'poi', version: '3.17' //excel操作依赖包
     compile group: 'org.apache.activemq', name: 'activemq-all', version: '5.10.0' //activeMQ依赖
+    compile group: 'redis.clients', name: 'jedis', version: '2.9.0' //redis连接包
 }
