@@ -8,6 +8,7 @@ package config
  */
 class Config {
 
+    //连接信息配置
     enum UrlConfig{
         RedisClientUrl('redis','112.74.160.66',6379,'mmm123'),
         ActiveMQClientUrl('activeMQ','tcp://127.0.0.1',61616,'')
