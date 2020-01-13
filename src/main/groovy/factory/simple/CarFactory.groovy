@@ -8,6 +8,7 @@ package factory.simple
  */
 class CarFactory {
 
+    //根据用户选购的类型去生产（根据类型创建对应的对象）
     public Car createCar(String carType){
         if(carType == 'bus'){
             return new BusCar()
