@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/groovy/mq/ActiveMQConfig.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/mq/ActiveMQConsumer.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/mq/ActiveMQProduction.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/nio/Demo.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/nio/IOOpertionFile.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/nio/NioConsumer.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/nio/NioServer.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/poi/PoiStart.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/proxy/Clazz.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/proxy/Config.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/proxy/Start.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/proxy/Stu_1.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/proxy/Stu_2.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/proxy/Stu_3.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/groovy/proxy/Teach.groovy" charset="GBK" />
+  </component>
+</project>
