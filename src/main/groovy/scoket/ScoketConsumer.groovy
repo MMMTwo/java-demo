@@ -1,6 +1,7 @@
 package scoket
 
 import com.sun.xml.internal.bind.v2.TODO
+import groovy.json.internal.Byt
 
 /**
  * @Author:夏立学
@@ -17,7 +18,8 @@ class ScoketConsumer {
             def map = [:]
             map["userId"] = 1
             map["name"] = "张三"
-            socket.getOutputStream().write(map);
+            String clientName = '张三'
+            socket.getOutputStream().write(clientName.getBytes());
             //关闭socket连接
             socket.close();
         } catch (IOException e) {
